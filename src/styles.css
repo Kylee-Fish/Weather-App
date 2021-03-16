@@ -1,0 +1,176 @@
+h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.cityForm {
+  position: relative;
+  display: inline;
+  top: -52px;
+  right: -25px;
+}
+
+h2 {
+  position: relative;
+  top: -40px;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+}
+
+h3 {
+  position: relative;
+  font-size: 30px;
+  top: 90px;
+  left: 150px;
+  margin: 0 auto;
+  color: #fff;
+}
+hr {
+  margin: 40px;
+  background: #fff;
+  position: relative;
+  top: 100px;
+}
+
+.date-time {
+  font-size: 20px;
+}
+
+#search-form {
+  text-align: right;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#search-button {
+  font-size: 15px;
+  padding: 6px 15px;
+}
+
+.card {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  height: 700px;
+  width: 600px;
+  display: block;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.degrees {
+  position: relative;
+  color: #fff;
+  font-size: 100px;
+  left: 40px;
+}
+
+.weather-type {
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stats {
+  float: right;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  width: 250px;
+  height: 210px;
+  display: block;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.forecast {
+  display: block;
+}
+
+.weatherIcon {
+  display: block;
+  padding: 20px auto;
+  margin: 5px auto;
+}
+
+.temp {
+  display: block;
+  font-size: 30px;
+}
+
+.dayOne {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 90px;
+  height: 150px;
+  top: 80px;
+  left: -25px;
+}
+
+.dayTwo {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 90px;
+  height: 150px;
+  top: -85px;
+  left: 70px;
+}
+
+.dayThree {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  bottom: 250px;
+  width: 90px;
+  height: 150px;
+  left: 165px;
+}
+
+.dayFour {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  bottom: 415px;
+  width: 90px;
+  height: 150px;
+  left: 260px;
+}
+
+.dayFive {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  bottom: 580px;
+  width: 90px;
+  height: 150px;
+  left: 355px;
+}
+
+.daySix {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  bottom: 745px;
+  width: 90px;
+  height: 150px;
+  left: 450px;
+}

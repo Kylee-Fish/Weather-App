@@ -174,3 +174,11 @@ hr {
   height: 150px;
   left: 450px;
 }
+
+.codeLink {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+}

@@ -28,6 +28,12 @@ let date = now.getDate();
 let year= now.getFullYear();
 let hour = now.getHours();
 let minute = now.getMinutes();
+if (hour < 10) {
+  hour = `0${hour}`;
+}
+if (minute < 10) {
+  minute = `0${minute}`;
+}
 let currentTime = document.querySelector("h2");
 currentTime.innerHTML = `${day}, ${month} ${date}, ${year} ${hour}:${minute}`;
 
@@ -58,4 +64,4 @@ function showWeather(response) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitCity);
 
-search("Rockport");
+search("Austin");

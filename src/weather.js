@@ -66,8 +66,8 @@ function showWeather(response) {
 
 function showCelcius(event) {
   event.preventDefault();
-  //let celciusTemperature = `(${Math.round(response.data.main.temp)} - 32) * 5 / 9`
-  //alert(celciusTemperature);
+  let celciusTemperature = `(${Math.round(response.data.main.temp)} - 32) * 5 / 9`
+  alert(celciusTemperature);
 }
 
 let form = document.querySelector("#search-form");

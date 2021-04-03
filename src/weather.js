@@ -59,7 +59,11 @@ function showWeather(response) {
   `Wind: ${Math.round(response.data.wind.speed)} mph`;
   document.querySelector(".humidity").innerHTML = 
   `Humidity: ${Math.round(response.data.main.humidity)}%`;
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+  iconElement.setAttribute("alt", response.data.weather[0].main);
 }
+
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitCity);

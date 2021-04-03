@@ -64,6 +64,21 @@ hr {
   left: 40px;
 }
 
+.fahrenheitConversion {
+  text-decoration: none;
+  color: #fff;
+  cursor: default;
+}
+
+.celsiusConversion {
+  color: #fff;
+}
+
+.celsiusConversion:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .weather-type {
   text-transform: capitalize;
   font-size: 30px;

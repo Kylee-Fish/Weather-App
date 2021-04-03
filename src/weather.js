@@ -64,16 +64,15 @@ function showWeather(response) {
   iconElement.setAttribute("alt", response.data.weather[0].main);
 }
 
-function showCelcius(event) {
+function showCelsius(event) {
   event.preventDefault();
-  let celciusTemperature = `(${Math.round(response.data.main.temp)} - 32) * 5 / 9`
-  alert(celciusTemperature);
+  alert("link clicked");
 }
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitCity);
 
-search("Austin");
+let celsiusLink = document.querySelector("#celsius");
+celsiusLink.addEventListener("click", showCelsius);
 
-let celciusLink = document.querySelector("#celcius");
-celciusLink.addEventListener("click", showCelcius);
+search("Austin");

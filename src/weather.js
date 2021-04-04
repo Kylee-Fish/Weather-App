@@ -66,7 +66,9 @@ function showWeather(response) {
 
 function showCelsius(event) {
   event.preventDefault();
-  alert("link clicked");
+  let celsiusTemperature = (32 - 32) * 5 / 9;
+  let temperatureElement = document.querySelector(".degrees");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 let form = document.querySelector("#search-form");

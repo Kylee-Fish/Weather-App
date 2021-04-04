@@ -19,18 +19,31 @@ h2 {
 }
 
 h3 {
+  display: inline;
   position: relative;
-  font-size: 30px;
-  top: 90px;
-  left: 150px;
-  margin: 0 auto;
+  font-size: 20px;
   color: #fff;
+  right: 10px;
+  top: 30px;
 }
+
+a {
+  position: relative;
+  display: inline;
+  bottom: 45px;
+  left: 40px;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 hr {
   margin: 40px;
   background: #fff;
   position: relative;
-  top: 100px;
+  top: -10px;
 }
 
 .date-time {
@@ -60,7 +73,7 @@ hr {
 .degrees {
   position: relative;
   color: #fff;
-  font-size: 100px;
+  font-size: 120px;
   left: 40px;
 }
 
@@ -74,14 +87,9 @@ hr {
   color: #fff;
 }
 
-.celsiusConversion:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .weather-type {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin: 0 auto;
 }
@@ -96,6 +104,7 @@ hr {
   padding: 20px;
   margin: 20px auto;
   border-radius: 20px;
+  font-size: 20px;
 }
 
 .forecast {
@@ -121,8 +130,8 @@ hr {
   border-radius: 20px;
   width: 90px;
   height: 150px;
-  top: 80px;
-  left: -25px;
+  top: -10px;
+  left: -5px;
 }
 
 .dayTwo {
@@ -134,8 +143,8 @@ hr {
   border-radius: 20px;
   width: 90px;
   height: 150px;
-  top: -85px;
-  left: 70px;
+  bottom: 176px;
+  left: 90px;
 }
 
 .dayThree {
@@ -145,10 +154,10 @@ hr {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  bottom: 250px;
+  bottom: 342px;
   width: 90px;
   height: 150px;
-  left: 165px;
+  left: 185px;
 }
 
 .dayFour {
@@ -158,10 +167,10 @@ hr {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  bottom: 415px;
+  bottom: 508px;
   width: 90px;
   height: 150px;
-  left: 260px;
+  left: 280px;
 }
 
 .dayFive {
@@ -171,10 +180,10 @@ hr {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  bottom: 580px;
+  bottom: 674px;
   width: 90px;
   height: 150px;
-  left: 355px;
+  left: 375px;
 }
 
 .daySix {
@@ -184,12 +193,14 @@ hr {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  bottom: 745px;
+  bottom: 840px;
   width: 90px;
   height: 150px;
-  left: 450px;
+  left: 470px;
 }
 
 .codeLink {
+  display: block;
   text-align: center;
+  bottom: -10px;
 }

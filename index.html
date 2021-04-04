@@ -25,27 +25,29 @@
           </form>
         </div>
         <h2></h2>
-        <h3>
-          <span>
-          <a href="#" class="celsiusConversion" id="celsius"> °C</a> | <a href="#" class="fahrenheitConversion" id="fahrenheit">°F</a>
-          </span>
-        </h3>
-        <h4>
-          <div class="stats">
-            <div>
-              <img 
-              src="#" 
-              id="icon"
-              alt="">
-               <span class="weather-type"></span>
+        <div class="row">
+          <div class="col-6">
+            <h3 class="degrees"></h3>
+            <a href="#" class="celsiusConversion" id="celsius"> °C | </a><a href="#" class="fahrenheitConversion" id="fahrenheit">°F</a>
+            <h4>
             </div>
-
-            <div class="precipitation"></div>
-            <div class="wind"></div>
-            <div class="humidity"></div>
+            <div class="col-6">
+              <div class="stats">
+                <div>
+                  <img 
+                  src="#" 
+                  id="icon"
+                  alt="">
+                <span class="weather-type"></span>
+                </div>
+                <div class="precipitation"></div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+              </div>
+              </div>
+            </h4>
           </div>
-        </h4>
-        <p class="degrees"></p>
+        </div>
         <hr />
         <p class="forecast">
         <p class="dayOne">
@@ -98,17 +100,13 @@
         </p>
         
       </p>
-    </div>
-    
-    
-    
-    
+    </div>    
   </div>
-</div>
 </div>
 <p class="codeLink">
 <a href="https://github.com/Kylee-Fish/Weather-App">Open source code</a> by Kylee Fish
 </p>
+</div>
 <script src="src/weather.js"></script>
 </body>
 

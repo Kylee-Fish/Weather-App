@@ -3,13 +3,6 @@ h1 {
   color: #fff;
 }
 
-.cityForm {
-  position: relative;
-  display: inline;
-  top: -52px;
-  right: -25px;
-}
-
 h2 {
   position: relative;
   top: -40px;
@@ -27,18 +20,6 @@ h3 {
   top: 30px;
 }
 
-a {
-  position: relative;
-  display: inline;
-  bottom: 45px;
-  left: 40px;
-  font-size: 20px;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 hr {
   margin: 40px;
   background: #fff;
@@ -46,8 +27,39 @@ hr {
   top: -10px;
 }
 
-.date-time {
+.cityForm {
+  position: relative;
+  display: inline;
+  top: -52px;
+  right: -25px;
+}
+
+#celsius,
+#fahrenheit {
+  position: relative;
+  display: inline;
+  bottom: 45px;
+  left: 45px;
   font-size: 20px;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active {
+  color: #000;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.inactive {
+  color: #fff;
+}
+
+.inactive:hover {
+  color: #fff;
 }
 
 #search-form {
@@ -75,16 +87,6 @@ hr {
   color: #fff;
   font-size: 120px;
   left: 40px;
-}
-
-.fahrenheitConversion {
-  text-decoration: none;
-  color: #fff;
-  cursor: default;
-}
-
-.celsiusConversion {
-  color: #fff;
 }
 
 .weather-type {
@@ -202,5 +204,11 @@ hr {
 .codeLink {
   display: block;
   text-align: center;
-  bottom: -10px;
+  bottom: 0;
+  left: 0;
+}
+
+.name {
+  text-decoration: none;
+  color: #000;
 }

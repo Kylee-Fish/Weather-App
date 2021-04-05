@@ -107,98 +107,32 @@ hr {
   margin: 20px auto;
   border-radius: 20px;
   font-size: 20px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+  border-left: 1px solid #fff;
 }
 
-.forecast {
-  display: block;
-}
-
-.weatherIcon {
-  display: block;
-  padding: 20px auto;
-  margin: 5px auto;
-}
-
-.temp {
-  display: block;
-  font-size: 30px;
-}
-
-.dayOne {
-  position: relative;
-  text-align: center;
-  color: #fff;
+.col-2 {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  width: 90px;
-  height: 150px;
-  top: -10px;
-  left: -5px;
+  border-left: 1px solid #fff;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
 }
 
-.dayTwo {
-  display: block;
-  position: relative;
+.weather-forecast-day {
+  font-size: 25px;
   text-align: center;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  width: 90px;
-  height: 150px;
-  bottom: 176px;
-  left: 90px;
 }
 
-.dayThree {
-  display: block;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  bottom: 342px;
-  width: 90px;
-  height: 150px;
-  left: 185px;
+.forecast-image {
+  width: 60px;
 }
 
-.dayFour {
-  display: block;
-  position: relative;
+.weather-forecast-temperatures {
+  font-size: 20px;
   text-align: center;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  bottom: 508px;
-  width: 90px;
-  height: 150px;
-  left: 280px;
-}
-
-.dayFive {
-  display: block;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  bottom: 674px;
-  width: 90px;
-  height: 150px;
-  left: 375px;
-}
-
-.daySix {
-  display: block;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  bottom: 840px;
-  width: 90px;
-  height: 150px;
-  left: 470px;
 }
 
 .codeLink {

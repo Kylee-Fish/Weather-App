@@ -87,6 +87,36 @@ function showFahrenheit(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let weekdays = ["Thu", "Fri", "Sat", "Sun"];
+  weekdays.forEach(function (day) {
+    forecastHTML = forecastHTML + `
+        <div class="col-2">
+          <div class="weather-forecast-day">
+            ${day}
+          </div>
+            <img 
+            src="http://openweathermap.org/img/wn/04d@2x.png" 
+            alt="clouds" 
+            class="forecast-image" 
+            />
+          <div class="weather-forecast-temperatures">
+            <span class="max-temp">
+              78°
+            </span>
+            <span class="min-temp">
+              56°
+            </span>
+          </div>
+        </div>
+    `
+  })
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 let fahrenheitTemperature = null;
 
 let form = document.querySelector("#search-form");
@@ -99,3 +129,4 @@ let fahrenheitLink = document.querySelector("#fahrenheit");
 fahrenheitLink.addEventListener("click", showFahrenheit);
 
 search("Austin");
+displayForecast();

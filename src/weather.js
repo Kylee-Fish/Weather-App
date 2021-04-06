@@ -95,6 +95,7 @@ function getForecast(coordinates) {
 }
 
 function displayForecast(response) {
+  console.log(response.data);
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = `<div class="row">`;
@@ -106,7 +107,6 @@ function displayForecast(response) {
     <div class="weather-forecast-day">
     ${formatDay(forecastDay.dt)}
     </div>
-    ${index}
     <img 
     src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" 
     alt="clouds" 
@@ -126,6 +126,8 @@ function displayForecast(response) {
   });
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
+  let pop = document.querySelector(".precipitation");
+  pop.innerHTML = `Precipitation: ${response.data.hourly[0].pop}%`;
 }
 
 function formatDay(timestamp) {

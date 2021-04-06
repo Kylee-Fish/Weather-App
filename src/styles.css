@@ -21,7 +21,7 @@ h3 {
 }
 
 hr {
-  margin: 40px;
+  margin: 25px 40px;
   background: #fff;
   position: relative;
   top: -10px;
@@ -75,7 +75,7 @@ hr {
 
 .card {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  height: 700px;
+  height: 650px;
   width: 600px;
   display: block;
   padding: 20px;
@@ -93,7 +93,6 @@ hr {
   text-transform: capitalize;
   font-size: 28px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .stats {
@@ -103,12 +102,16 @@ hr {
   width: 250px;
   height: 210px;
   display: block;
-  padding: 20px;
-  margin: 20px auto;
+  padding-left: 20px;
+  margin: 0 auto;
   border-radius: 20px;
   font-size: 20px;
   box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
   border-left: 1px solid #fff;
+}
+
+.precipitation {
+  margin-top: 0;
 }
 
 .col-2 {
@@ -117,24 +120,32 @@ hr {
   border-left: 1px solid #fff;
   box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
+  height: 160px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.weather-forecast-day {
+.weather-forecast {
   font-size: 25px;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
+  padding: 10px auto;
 }
 
 .forecast-image {
-  width: 60px;
+  width: 70px;
+  margin: 0 auto;
 }
 
-.weather-forecast-temperatures {
+.weather-forecast {
   font-size: 20px;
   text-align: center;
+  margin: 0 auto;
 }
 .max-temp {
   color: #fff;
+  padding: 3px;
 }
 
 .min-temp {
